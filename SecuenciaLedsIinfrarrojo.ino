@@ -18,10 +18,10 @@ pinMode(pin2, INPUT);
 pinMode(pin3, INPUT);
 pinMode(pin4, INPUT);
 
-pinMode(luz1, INPUT);
-pinMode(luz2, INPUT);
-pinMode(luz3, INPUT);
-pinMode(luz4, INPUT);
+pinMode(luz1, OUTPUT);
+pinMode(luz2, OUTPUT);
+pinMode(luz3, OUTPUT);
+pinMode(luz4, OUTPUT);
 }
 
 void loop() {
