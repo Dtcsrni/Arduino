@@ -1,12 +1,14 @@
-int pin1=1;//Pines de entrada de sensores infrarrojos
-int pin2=2;
-int pin3=2;
-int pin4=4; 
+int pin1=2;//Pines de entrada de sensores infrarrojos
+int pin2=3;
+int pin3=4;
+int pin4=5;
+
 int valor=0;
-int pin10=10;//Pines de salida a leds
-int pin11=11;
-int pin12=12;
-int pin13=13;
+
+int pin10=8;//Pines de salida a leds
+int pin11=9;
+int pin12=10;
+int pin13=11;
  
  
  void setup() {
