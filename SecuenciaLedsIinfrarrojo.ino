@@ -1,3 +1,4 @@
+//mod
 int pin1=2;//Pines de entrada de sensores infrarrojos
 int pin2=3;
 int pin3=4;
