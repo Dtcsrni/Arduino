@@ -68,7 +68,8 @@ else{
 if(digitalRead(pin1) ==HIGH){//Si se corta señal en sensor 1
   
  digitalWrite(pin10,HIGH);
- digitalWrite(LED_BUILTIN, HIGH);
+ digitalWrite(pin11,LOW);
+
 
   //pin10 = 1;//se prende la primer luz
 }
@@ -96,6 +97,7 @@ if(digitalRead(pin4)==HIGH&&digitalRead(pin3)==LOW){
 }
 
 if(digitalRead(pin4)==LOW){//si ya no hay señal en el sensor 4
+  delay(1000);
   digitalWrite(pin13,LOW);
   //pin13=0;//se apaga la ultima luz
 }
