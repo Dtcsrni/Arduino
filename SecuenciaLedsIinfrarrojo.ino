@@ -1,3 +1,4 @@
+//Prototipo de pasillo inteligente con arduino
 //mod
 int pin1=2;//Pines de entrada de sensores infrarrojos
 int pin2=3;
