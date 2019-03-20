@@ -1,5 +1,5 @@
 //Prototipo de pasillo inteligente con arduino
-//Erick Brega y Alonso Uribe
+//Erick Vega y Alonso Uribe
 //Centro Universitario Hidalguense
 //mod
 int pin1=2;//Pines de entrada de sensores infrarrojos
